@@ -17,7 +17,7 @@ function App() {
         {
           idToken: tokenResponse.credential!,
         },
-        'Embedded Wallet Boilerplate'
+        'Google Embedded Wallet React Boilerplate'
       );
 
       setWalletAddress(res.wallet);
