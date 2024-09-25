@@ -45,7 +45,7 @@ function App() {
   return (
     <>
     <h1 className='title'>Embedded Wallet Google Auth</h1>
-    <div style={{position: 'fixed', top:'30px', right: '30px'}}>
+    <div style={{position: 'fixed', top:'60px', right: '60px'}}>
     {walletAddress&&<p style={{cursor: 'pointer'}} onClick={() =>signOut()}>sign out</p>}
     </div>
     <div style={{
